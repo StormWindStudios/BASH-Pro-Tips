@@ -1,6 +1,6 @@
 # BASH Pro-Tips
 Tips for efficiently navigating the BASH commandline interface
-
+* [Re-run the Last Command as Sudo](#re-run-the-last-command-as-sudo)
 ## Re-run the Last Command as Sudo
 People commonly forget to use sudo when running commands that require elevated privileges. To rerun the command as the sudo user, you can use **sudo !!**
 
