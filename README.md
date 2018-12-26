@@ -54,4 +54,4 @@ user@company:~$ gitquick
  1 file changed, 1 insertion(+)
 ...
 ```
-*Changes to .bashrc will not take effect until you open a new terminal*
+* *Changes to .bashrc will not take effect until you open a new terminal*
