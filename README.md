@@ -29,7 +29,6 @@ Modifications can be a pain to make in a long command if you're using just the l
 * **alt + f:** go forward one word
 
 ## Use Aliases for Common Command Sequences
-
 We often use the same command sequences many times a day. These can be packaged as a single alias in the aliases section of **~/.bashrc**.
 
 ### Running the Command Manually
@@ -43,15 +42,16 @@ user@company:~$ git push -u origin master
 ...
 ```
 
-### Instead, We Can Add an Alias...
+#### Instead, We Can Add an Alias...
 ```shell
 alias gitquick='git add . && git commit -m "quick commit with unhelpful comment" && git push -u origin master'
 ```
 
-### And Simply Run That*
+#### And Simply Run That*
 ```console
 user@company:~$ gitquick
 [master 4fd0c04] quick commit with unhelpful comment
  1 file changed, 1 insertion(+)
 ...
 ```
+*Changes to .bashrc will not take effect until you open a new terminal*
