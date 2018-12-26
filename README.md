@@ -1,6 +1,10 @@
 # BASH Pro-Tips
 Tips for efficiently navigating the BASH commandline interface
 * [Re-run the Last Command as Sudo](#re-run-the-last-command-as-sudo)
+* [Reuse the Last Argument](#reuse-the-last-argument)
+* [Move Around Long Commands Quickly](#move-around-long-commands-quickly)
+* [Use Aliases for Common Command Sequences](#use-aliases-for-common-command-sequences)
+
 ## Re-run the Last Command as Sudo
 People commonly forget to use sudo when running commands that require elevated privileges. To rerun the command as the sudo user, you can use **sudo !!**
 
@@ -17,7 +21,7 @@ Reading state information... Done
 cowsay is already the newest version (3.03+dfsg2-4).
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded. #test
 ```
-## Re-use the Last Argument 
+## Reuse the Last Argument 
 Sometimes we need to use arguments from previous commands. We can avoid typing them out manually by using the **alt + .** shortcut, which will cycle through the arguments you've recently used. 
 
 ## Move Around Long Commands Quickly
