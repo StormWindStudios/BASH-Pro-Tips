@@ -64,7 +64,7 @@ user@company:~$ gitquick
 ## Navigate to the Previous Directory You Were In
 To easily return to your previous directory, simple run **cd -**
 ```console
-user@company:~$ cd /etc/systemd/system/network-online.target.wants/
-user@company:/etc/systemd/system/network-online.target.wants$ cd -
-user@company:~$
+user@company:/etc/systemd/system/network-online.target.wants$ cd ~
+user@company:~$ cd -
+user@company:/etc/systemd/system/network-online.target.wants$
 ```
