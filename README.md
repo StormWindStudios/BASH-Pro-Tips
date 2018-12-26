@@ -18,7 +18,8 @@ cowsay is already the newest version (3.03+dfsg2-4).
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 ```
 ## Move Around Long Commands Quickly
-Typos can be a pain to reach in a long command if you're using just the left and right arrow. The following shortcuts are helpful.
+Modifications can be a pain to make in a long command if you're using just the left and right arrow keys. The following shortcuts are helpful.
+
 * **ctrl+a:** move to the beginning of the line
 * **ctrl+e:** move to the end of the line
 * **alt+b:** go backward one word
