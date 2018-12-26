@@ -27,3 +27,14 @@ Modifications can be a pain to make in a long command if you're using just the l
 * **ctrl + e:** move to the end of the line
 * **alt + b:** go backward one word
 * **alt + f:** go forward one word
+
+## Use Aliases for Common Command Sequences
+
+```console
+user@company:~$ git add . 
+user@company:~$ git commit -m "quick commit with unhelpful comment"
+[master (root-commit) f0c4acc] who has commitment issues now, Martha?
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test
+user@company:~$ git push -u origin master
+```
