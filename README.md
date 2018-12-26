@@ -30,11 +30,17 @@ Modifications can be a pain to make in a long command if you're using just the l
 
 ## Use Aliases for Common Command Sequences
 
+We often use the same command sequences many times a day. These can be packaged as a single alias in the aliases section of **~/.bashrc**.
+
 ```console
 user@company:~$ git add . 
 user@company:~$ git commit -m "quick commit with unhelpful comment"
-[master (root-commit) f0c4acc] who has commitment issues now, Martha?
+[master (root-commit) f0c4acc] quick commit with unhelpful comment
  1 file changed, 1 insertion(+)
  create mode 100644 test
 user@company:~$ git push -u origin master
+```
+
+```shell
+alias gitquick='git add . && git commit -m "quick commit with unhelpful comment" && git push -u origin master'
 ```
