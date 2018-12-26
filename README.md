@@ -4,6 +4,7 @@ Tips for efficiently navigating the BASH commandline interface
 * [Reuse the Last Argument](#reuse-the-last-argument)
 * [Move Around Long Commands Quickly](#move-around-long-commands-quickly)
 * [Use Aliases for Common Command Sequences](#use-aliases-for-common-command-sequences)
+* [Navigate to the Previous Directory You Were In](#navigate-to-the-previous-directory-you-were-in)
 
 ## Re-run the Last Command as Sudo
 People commonly forget to use sudo when running commands that require elevated privileges. To rerun the command as the sudo user, you can use **sudo !!**
@@ -59,3 +60,11 @@ user@company:~$ gitquick
 ...
 ```
 \**Changes to .bashrc will not take effect until you open a new terminal*
+
+## Navigate to the Previous Directory You Were In
+To easily return to your previous directory, simple run **cd -**
+```console
+user@company:~$ cd /etc/systemd/system/network-online.target.wants/
+user@company:/etc/systemd/system/network-online.target.wants$ cd -
+user@company:~$
+```
